@@ -8,7 +8,7 @@ module.exports = {
   SpotifySecret: process.env.SPOTIFYSECRET || '', // spotify client secret
   mongourl: process.env.MONGO_URI || '', // MongoDb URL
   embedColor: process.env.COlOR || '#2B2928', // embed colour
-  logs: process.env.LOGS || '1026075600089256017', // Discord channel id 
+  logs: process.env.LOGS || '', // Discord channel id 
   links: {
     support: process.env.SUPPORT || 'https://discord.gg/devshub',
     invite: process.env.INVITE || 'https://discord.gg/devshub',
